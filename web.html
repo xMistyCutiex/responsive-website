@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>website</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script>
+         function openNav(){
+             document.getElementById("mySideNav").style.width = "250px";
+             document.getElementById("mySideNav").style.height = "500px";
+             document.getElementById("main").style.marginLeft = "250px";
+         }
+         function closeNav(){
+             document.getElementById("mySideNav").style.width="0";
+             document.getElementById("main").style.marginLeft = "0";
+         }
+      </script>
+   </head>
+   <body>
+      <div class="main-body">
+         <header>
+            <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+            <div id="mySideNav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="#">About</a>
+               <a href="#">Services</a>
+               <a href="#">Contact</a>
+               <a href="#">Map</a>
+            </div>
+         </header>
+         <div class="body-inner">
+            <div class="banner-section">
+               <div class="main">
+                  <center>
+                     <h1 id="head1">UTTARAKHAND TOURS & TRAVEL</h1>
+                  </center>
+                  <center>
+                     <h4 id="head2">Abode of gods</h4>
+                  </center>
+               </div>
+            </div>
+            <div  class="content">
+               <div class="container">
+                 <div class="section-one-inner">
+                    <div class="child">
+                     <a href="https://www.euttaranchal.com/tourism/khaliya-top.php" target="_blank"><img src="Khalia%20Top.webp"></a>
+                     <figcaption>Khalia Top Trail, Munsyari, Uttarakhand.
+                     </figcaption>
+                  </div>
+                  <div class="child">
+                     <h2>Welcome to Paradise </h2>
+                     <p>A mystical land of mountains and mythologies, exquisite landscapes and exhilarating adventure, and wellness and yoga, Uttarakhand has something to offer every traveller. Popularly known as Devbhoomi, or the land of gods, the state is framed by the Himalayas and divided into two main regions, Garhwal and Kumaon. While Uttarakhand has several well-known destinations like Nainital, Mussoorie, Corbett National Park and Auli, and pilgrimage sites like Kedarnath, Badrinath, Rishikesh and Haridwar, explore the 13 lesser-known destinations from the state's 13 districts.</p>
+                  </div>
+                </div>
+               </div>
+            </div>
+         </div>
+         <footer>
+            Copyright &#169; 2022: Uttarakhand Tours and Travels
+         </footer>
+      </div>
+   </body>
+</html>
